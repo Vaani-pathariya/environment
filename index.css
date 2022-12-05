@@ -1,3 +1,78 @@
+.navbar-brand{
+    font-weight: 800;
+}
+
+
+/* css for ul tag contains 5 headings*/
+.navbar-nav{
+    position: absolute;
+    right: 60px;
+}
+
+/* li tags if want to customise each heading */
+.nav-item{
+    padding-left: 60px;
+}
+.first{
+    background-image: url('./img1.jpeg');
+  background-size: cover;
+  height: 800px;
+}
+.content{
+    display: flex;
+}
+.heading{
+    font-size: 100px;
+ }
+ .left{
+    width: 50%;
+    margin: 50px 90px;
+ }
+ .text{
+     font-size: 26px;
+     margin:20px;
+ }
+ 
+ /* .btn{
+     font-size: 26px;
+     background-color: black;
+     color: white;
+     border-radius: 40px;
+     padding: 2px 80px;
+ } */
+.second{
+    background-image: url('./img2.jpeg');
+  background-size: cover;
+  height: 1000px;
+}
+.third
+{
+    background-image: url('./img3.jpeg');
+    background-size: cover;
+    height: 1000px;
+}
+.fourth{
+    background-image: url('./img4.jpeg');
+    background-size: cover;
+    height: 1000px;
+}
+.fifth{
+    background-image: url('./img5.jpeg');
+    background-size: cover;
+    height: 1000px;
+}
+.sixth{
+    background-image: url('./img6.jpeg');
+    background-size: cover;
+    height: 1000px;
+}
+.seveth{
+    background-image: url('./img7.jpeg');
+    background-size: cover;
+    height: 1000px;
+}
+
+/* backend */
 #map{
     width: 55vw;
     height: 60vh;
