@@ -12,6 +12,10 @@
 /* li tags if want to customise each heading */
 .nav-item{
     padding-left: 60px;
+    font-family: 'Montserrat', sans-serif;
+    color:#000;
+    font-size: 20px;
+
 }
 .first{
     background-image: url('./img1.jpeg');
@@ -77,3 +81,119 @@
     width: 55vw;
     height: 60vh;
 }
+
+.btn1{
+    font-size: 32px;
+    background-color: black;
+    color: white;
+    border-radius: 40px;
+    padding: 2px 80px;
+    transition-delay: 0s;
+    transition-duration: 0.2s;
+}
+
+.btn1:hover{
+color: black;
+background-color: #fafafa;
+border-width: 1px;
+border-color: black;
+
+}
+
+.head1{
+    display:inline-block;
+    overflow:hidden;
+    white-space:nowrap;
+    margin-left: 10px;
+  }
+  .head2{
+    display:inline-block;
+    overflow:hidden;
+    white-space:nowrap;
+  }
+
+  
+  .head2:first-of-type {    
+    animation: showup 7s infinite;
+  }
+  
+  .head2:last-of-type {
+    width:0px;
+    animation: reveal 7s infinite;
+  }
+  
+  .head1:last-of-type{
+    margin-left:-355px;
+    animation: slidein 7s infinite;
+  }
+  
+  @keyframes showup {
+      0% {opacity:0;}
+      20% {opacity:1;}
+      80% {opacity:1;}
+      100% {opacity:0;}
+  }
+  
+  @keyframes slidein {
+      0% { margin-left:-800px; }
+      20% { margin-left:-800px; }
+      35% { margin-left:0px; }
+      100% { margin-left:0px; }
+  }
+  
+  @keyframes reveal {
+      0% {opacity:0;width:0px;}
+      20% {opacity:1;width:0px;}
+      30% {width:355px;}
+      80% {opacity:1;}
+      100% {opacity:0;width:355px;}
+  }
+
+  .heading{
+    font-family: 'Montserrat', sans-serif;
+    color:#000;
+    font-size: 56px;
+  }
+
+  .text2
+  {
+    font-family: 'Montserrat', sans-serif;
+    color:#000;
+    font-size: 36px;
+    text-align: center;
+    padding-top: 70px;
+  }
+
+  .text1{
+    color: rgb(0, 0, 0);
+    margin-top: 0px;
+    margin-bottom: 50px;
+    font-size: 32px;
+  }
+
+  .hover-underline-animation {
+    display: inline-block;
+    position: relative;
+    color: 
+  #000000;
+  }
+  
+  .hover-underline-animation:after {
+    content: '';
+    position: absolute;
+    width: 100%;
+    transform: scaleX(0);
+    height: 2px;
+    bottom: 0;
+    left: 0;
+    background-color: 
+  #000000;
+    transform-origin: bottom right;
+    transition: transform 0.25s ease-out;
+  }
+  
+  .hover-underline-animation:hover:after {
+    transform: scaleX(1);
+    transform-origin: bottom left;
+  }
+  
